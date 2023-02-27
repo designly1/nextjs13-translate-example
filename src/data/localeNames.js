@@ -1,3 +1,5 @@
+// localeNames.js
+
 const localeNames = [
     {
         name: 'English (United States)',

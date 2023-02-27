@@ -1,8 +1,12 @@
 /** @type {import('next').NextConfig} */
+import localeNames from '@/data/localeNames'
+
+const locales = localeNames.map(l => l.value);
+
 const nextConfig = {
   reactStrictMode: true,
   i18n: {
-    locales: ['en-US', 'en-UK', 'zh-CN', 'fr'],
+    locales,
     defaultLocale: 'en-US'
   }
 }
