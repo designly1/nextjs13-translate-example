@@ -16,7 +16,8 @@ export default function Home(props) {
           <h1 className="font-bold text-2xl">NextJS 13 ChatGPT Locale Example</h1>
           <div className="p-4 border-2 border-gray-400 rounded-md focus-within:shadow-blue relative flex w-full">
             <select id="4cfc454f-8760-24b1-fac9-f84055b6e47c" className="focus:outline-none w-full bg-transparent text-blue-200" name="reference" placeholder="Select Language">
-              <option className="bg-indigo-700" disabled="">** Select Language **</option>
+              <option disabled="">** Select Language **</option>
+              <option value="en-US">English (US)</option>
             </select>
           </div>
         </div>
