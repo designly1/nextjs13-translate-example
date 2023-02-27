@@ -1,5 +1,7 @@
+// next.config.js
+
 /** @type {import('next').NextConfig} */
-import localeNames from '@/data/localeNames'
+const localeNames = require('./src/data/localeNames');
 
 const locales = localeNames.map(l => l.value);
 
