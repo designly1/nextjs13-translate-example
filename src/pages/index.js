@@ -1,3 +1,5 @@
+// index.js
+
 import React, { useRef } from 'react'
 import Head from 'next/head'
 import { setCookie } from 'cookies-next';

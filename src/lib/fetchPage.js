@@ -1,3 +1,5 @@
+// fetchPage.js
+
 import { Configuration, OpenAIApi } from "openai";
 import homePage from "@/data/homePage";
 
@@ -9,7 +11,7 @@ const defaultLocale = 'en-US';
 
 export default async function fetchPage(slug, locale) {
     if (locale === defaultLocale) return pages[slug];
-    
+
     const configuration = new Configuration({
         apiKey: process.env.NEXT_PUBLIC_OPENAI_KEY,
     });
